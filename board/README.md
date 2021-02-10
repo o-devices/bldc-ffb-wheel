@@ -1,0 +1,1 @@
+Link to PCB proiject https://easyeda.com/olukelo/btn8982-three-phase-controller_copy_copy
