@@ -34,7 +34,7 @@ Before connect power supply set correct position of steering wheel, it calibrate
 
 ### GUI 
 
-####Effects
+Effects
 
 ![effect](screen/guieffects.jpg)
 
@@ -44,16 +44,7 @@ Before connect power supply set correct position of steering wheel, it calibrate
 * Soft stop range - the distance in percentage from the Steering range at which the stop force increases at the end of the range. At the same time, the output values ​​​​of the joystick axis are already at the maximum in this range
 
 
-If you want full acces to setting you need write to [propeler](https://forum.simracing.su/profile/5730-propeler/)
-
-![serial](screen/guiserial.jpg)
-
-The Hardware tab is inactive until the Serial Key for a specific Device ID is entered.
-When the correct key is entered and the Register button is pressed, the program switches to full mode and the Enable advanced settings button becomes available on the Hardware tab. (known bug - the key is not saved between controller restarts - I'm working on it)
-The Enable advanced settings button has been added so as not to accidentally change what is not necessary. For good, everything on this tab should be configured only once and forgotten.
-
-
-One of important option is to config encoder CPR.
+Hardware
 
 ![hardware](screen/guihardware.jpg)
 
@@ -65,3 +56,16 @@ One of important option is to config encoder CPR.
 * P Gain / I Gain - FOC algorithm parameters. Setting them up is a separate issue, you need to write a separate post with pictures. there Constant reading smoothing. Important parameters depend on them "noisiness" and the accuracy of the algorithm, but not easy to set up. Will be separately for them.
 * Output power - total power as a percentage of the physically possible. Start low and increase a little at a time until the motor stays stable and doesn't overheat.
 * Buttons - read what is written in the controller - write to the controller. Each tab has its own. Changes to the effects tab are saved separately to the hardware tab.
+
+One of important option is to config encoder CPR.
+
+
+Serial Key
+
+![serial](screen/guiserial.jpg)
+
+The Hardware tab is inactive until the Serial Key for a specific Device ID is entered.
+When the correct key is entered and the Register button is pressed, the program switches to full mode and the Enable advanced settings button becomes available on the Hardware tab. (known bug - the key is not saved between controller restarts - I'm working on it)
+The Enable advanced settings button has been added so as not to accidentally change what is not necessary. For good, everything on this tab should be configured only once and forgotten.
+
+If you want full acces to setting you need write to [propeler](https://forum.simracing.su/profile/5730-propeler/)
