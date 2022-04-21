@@ -34,7 +34,7 @@ Before connect power supply set correct position of steering wheel, it calibrate
 
 ### GUI 
 
-In settings UI u can change a bunch of options.
+####Effects
 
 ![effect](screen/guieffects.jpg)
 
