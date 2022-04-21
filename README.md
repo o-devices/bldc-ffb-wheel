@@ -35,7 +35,8 @@ Before connect power supply set correct position of steering wheel, it calibrate
 ### GUI 
 
 In settings UI u can change a bunch of options.
-![effect](screen/Guieffects.jpg)
+
+![effect](screen/guieffects.jpg)
 
 * Enable constant via sine - Enables support for effects similar to their Raceroom helmet. So far I've only met in one game. For everything except the flight room, it's better to shoot.
 * Steering range - I think without question.
@@ -44,7 +45,8 @@ In settings UI u can change a bunch of options.
 
 
 If you want full acces to setting you need write to [propeler](https://forum.simracing.su/profile/5730-propeler/)
-![serial](screen/Guiserial.jpg)
+
+![serial](screen/guiserial.jpg)
 
 The Hardware tab is inactive until the Serial Key for a specific Device ID is entered.
 When the correct key is entered and the Register button is pressed, the program switches to full mode and the Enable advanced settings button becomes available on the Hardware tab. (known bug - the key is not saved between controller restarts - I'm working on it)
@@ -52,7 +54,8 @@ The Enable advanced settings button has been added so as not to accidentally cha
 
 
 One of important option is to config encoder CPR.
-![hardware](screen/Guihardware.jpg)
+
+![hardware](screen/guihardware.jpg)
 
 * Invert encoder direction - changes the encoder output direction. Does the same thing as changing the connection of pins A and B to the controller. I prefer that when turning the steering wheel clockwise, the values ​​\u200b\u200bof the axis increase.
 * A / B pullup - set for encoders that need to pull up the outputs to the power supply. Most encoders are like Omron barrels, but see the instructions for the encoder if you need it or not.
