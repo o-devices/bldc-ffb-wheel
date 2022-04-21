@@ -48,7 +48,7 @@ Hardware
 
 ![hardware](screen/guihardware.jpg)
 
-* Invert encoder direction - changes the encoder output direction. Does the same thing as changing the connection of pins A and B to the controller. I prefer that when turning the steering wheel clockwise, the values ​​\u200b\u200bof the axis increase.
+* Invert encoder direction - changes the encoder output direction. Does the same thing as changing the connection of pins A and B to the controller. I prefer that when turning the steering wheel clockwise, the values along axis increase.
 * A / B pullup - set for encoders that need to pull up the outputs to the power supply. Most encoders are like Omron barrels, but see the instructions for the encoder if you need it or not.
 * Encoder CPR - total encoder CPR, including reduction (if any) PPR * 4 * reduction ratio
 * Pole pairs - the number of pairs of motor magnets. A hoverboard motor has 15 in most cases.
