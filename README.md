@@ -68,4 +68,4 @@ The Hardware tab is inactive until the Serial Key for a specific Device ID is en
 When the correct key is entered and the Register button is pressed, the program switches to full mode and the Enable advanced settings button becomes available on the Hardware tab. (known bug - the key is not saved between controller restarts - I'm working on it)
 The Enable advanced settings button has been added so as not to accidentally change what is not necessary. For good, everything on this tab should be configured only once and forgotten.
 
-If you want full acces to setting you need write to [propeler](https://forum.simracing.su/profile/5730-propeler/)
+If you want full acces to setting contact me directly.
