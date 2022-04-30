@@ -6,14 +6,20 @@ https://forum.simracing.su/topic/4400-dd-rul-iz-hoverborda-ya-sdelal-eto/
 
 ## Required Parts/Materials
 
-* Odrive Board
+* Odrive Board (Tested on two axis ODrive, one axis ODrive and ODESC3.6 clone)
 * Hoverboard Motor
-* Incremental Encoder
+* Incremental Encoder (Suppports both OMRON style encoders and AMT 102/103 series)
+
+* STLINK (for ODrive versions that do not have DFU switch onboard, f.e. ODESC3.6)
 
 ## Assembly
 
-Connection diagram:
-![scheme](screen/scheme.png)
+Connection diagram (Note the button. It is optional, but helpfull. It's functionality to reset center position of the wheel. In normal operation position in which wheel was connected to power sourse considered as the center, but if you need to reset it - just press the button)
+![scheme](screen/scheme.jpg)
+
+## Mechanical part
+
+More details on mechanical part will be soon!
 
 ## Firmware
 
@@ -30,7 +36,7 @@ To program board you need [STM32CubeProgrammer](https://www.st.com/en/developmen
 
 ### Calibration
 
-Before connect power supply set correct position of steering wheel, it calibrate automatically when power is on.
+Before connecting the power supply set correct center position of steering wheel. Wheel will calibrate automatically when power is on.
 
 ### GUI 
 
@@ -38,27 +44,29 @@ Effects
 
 ![effect](screen/guieffects.jpg)
 
-* Enable constant via sine - Enables support for effects similar to their Raceroom helmet. So far I've only met in one game. For everything except the flight room, it's better to shoot.
+* Enable constant via sine - Enables support for effects similar to Raceroom (it sends effects in different form from other games). So far I've only met in one game. For everything except the Raceroom keep it unchecked.
 * Steering range - I think without question.
-* Further, everything with the addition of gain is the adjustment of the strength of individual effects. Everything that is plus turns in one direction, everything that is minus turns in the other. Damper is not implemented at the moment, Total is the total effort scale that is applied to everything at once. If you need to invert all effects, just invert Total.
-* Soft stop range - the distance in percentage from the Steering range at which the stop force increases at the end of the range. At the same time, the output values ​​​​of the joystick axis are already at the maximum in this range
-
+* Everything with the addition of word 'gain' is the adjustment of the strength of individual effects. Everything that is plus turns in one direction, everything that is minus turns in the other. Damper is not implemented at the moment, Total is the total effort scale that is applied to everything at once. If you need to invert all effects, just invert Total.
+* Soft stop range - the distance in percentage from the 'steering range' at which the stop force increases at the end of the range. At the same time, the output values ​​​​of the joystick axis are already at the maximum in this range
 
 Hardware
 
 ![hardware](screen/guihardware.jpg)
 
-* Invert encoder direction - changes the encoder output direction. Does the same thing as changing the connection of pins A and B to the controller. I prefer that when turning the steering wheel clockwise, the values along axis increase.
-* A / B pullup - set for encoders that need to pull up the outputs to the power supply. Most encoders are like Omron barrels, but see the instructions for the encoder if you need it or not.
-* Encoder CPR - total encoder CPR, including reduction (if any) PPR * 4 * reduction ratio
+* Invert encoder direction - changes the encoder output direction. Does the same thing as changing the connection of pins A and B to the controller. I prefer to keep that setting the way so when turning the steering wheel clockwise, the values of axis increases.
+* A / B pullup - set for encoders that need to pull up the outputs to the power supply. Most encoders of 'Omron style' requires it, but see the instructions for the encoder if you need it or not.
+* Encoder CPR - total encoder CPR, including reduction ration (if any) CPR = PPR * 4 * reduction ratio
 * Pole pairs - the number of pairs of motor magnets. A hoverboard motor has 15 in most cases.
-* FOC debug - output of paired parameters of the FOC algorithm along two axes. Useful when adjusting P Gain / I Gain parameters. Set to None for normal use. I updated the firmware so that None is the default.
-* P Gain / I Gain - FOC algorithm parameters. Setting them up is a separate issue, you need to write a separate post with pictures. there Constant reading smoothing. Important parameters depend on them "noisiness" and the accuracy of the algorithm, but not easy to set up. Will be separately for them.
+* FOC debug - output of paired parameters of the FOC algorithm along two axes. Useful when adjusting P Gain / I Gain parameters. Set to None for normal use.
+* P Gain / I Gain - FOC algorithm parameters. Setting them up is a separate issue, I need to write a separate post with pictures.
+* Constant reading smoothing. Important parameters depend on them "noisiness" and the accuracy of the algorithm, but not easy to set up. Will be separately for them.
 * Output power - total power as a percentage of the physically possible. Start low and increase a little at a time until the motor stays stable and doesn't overheat.
-* Buttons - read what is written in the controller - write to the controller. Each tab has its own. Changes to the effects tab are saved separately to the hardware tab.
 
-One of important option is to config encoder CPR.
+Buttons 
+* read what is written in the controller 
+* write to the controller.
 
+Each tab has its own buttons. Changes to the effects tab are saved separately to the hardware tab.
 
 Serial Key
 
