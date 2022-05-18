@@ -57,10 +57,10 @@ Hardware
 * A / B pullup - set for encoders that need to pull up the outputs to the power supply. Most encoders of 'Omron style' requires it, but see the instructions for the encoder if you need it or not.
 * Encoder CPR - total encoder CPR, including reduction ration (if any) CPR = PPR * 4 * reduction ratio
 * Pole pairs - the number of pairs of motor magnets. A hoverboard motor has 15 in most cases.
-* FOC debug - output of paired parameters of the FOC algorithm along two axes. Useful when adjusting P Gain / I Gain parameters. Set to None for normal use.
 * P Gain / I Gain - FOC algorithm parameters. Setting them up is a separate issue, I need to write a separate post with pictures.
 * Constant reading smoothing. Important parameters depend on them "noisiness" and the accuracy of the algorithm, but not easy to set up. Will be separately for them.
 * Output power - total power as a percentage of the physically possible. Start low and increase a little at a time until the motor stays stable and doesn't overheat.
+* Braking resistor limit - power that can be dissipated by praking resistor as a percentage of the physically possible. Start low and increase a little at a time until the PSU stop to go into overvoltage protection during quick wheel rotation.
 
 Buttons 
 * read what is written in the controller 
