@@ -85,4 +85,4 @@ If you want full acces to setting [contact me](mailto:olukelo.company@gmail.com)
 * Assetto Corsa Competizione
 * Project Cars
 * Automobilista 2
-* Dirt Rally 2.0 - For the steering wheel to work, follow the instructions in the documents
+* Dirt Rally 2.0 - For the steering wheel to work, follow the instructions in the [documents](/docs/codemasters_games.md)
