@@ -19,7 +19,7 @@ Connection diagram (Note the button. It is optional, but helpfull. It's function
 
 ## Mechanical part
 
-More details on mechanical [here](/docs/hardware)
+More details on mechanical [here](/docs/hardware/README.md)
 
 ## Firmware
 
