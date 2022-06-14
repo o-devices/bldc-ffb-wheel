@@ -77,3 +77,12 @@ When the correct key is entered and the Register button is pressed, the program 
 The Enable advanced settings button has been added so as not to accidentally change what is not necessary. For good, everything on this tab should be configured only once and forgotten.
 
 If you want full acces to setting [contact me](mailto:olukelo.company@gmail.com)
+
+
+## Tested games
+
+* Assetto Corsa
+* Assetto Corsa Competizione
+* Project Cars
+* Automobilista 2
+* Dirt Rally 2.0 - For the steering wheel to work, follow the instructions in the documents
