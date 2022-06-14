@@ -1,8 +1,9 @@
-To make the steering wheel work in codemasters games you need:
+##To make the steering wheel work in codemasters games you need:
 
 * Go to: ``\steamapps\common\DiRT Rally 2.0\input\devices``
 * Edit file ``device_defines.xml`` by pasting at the end 
-``` <device id ="{588A045B-0000-0000-0000-504944564944}" name = "hover_wheel" priority = "102" type = "wheel" Official = "false" /> 
+``` 
+<device id ="{588A045B-0000-0000-0000-504944564944}" name = "hover_wheel" priority = "102" type = "wheel" Official = "false" /> 
 ```
 * Go to: ``\steamapps\common\DiRT Rally 2.0\input\actionmaps``
 * Create file ``hover_wheel.xml`` and paste inside 
