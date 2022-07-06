@@ -79,15 +79,13 @@ General buttons mapping
 
 Each tab has its own buttons. Changes to the effects tab are saved separately to the hardware tab.
 
-Serial Key
-
-![serial](screen/guiserial.jpg)
+Full version
 
 The Hardware tab is inactive until the Serial Key for a specific Device ID is entered.
 When the correct key is entered and the Register button is pressed, the program switches to full mode and the Enable advanced settings button becomes available on the Hardware tab. (known bug - the key is not saved between controller restarts - I'm working on it)
 The Enable advanced settings button has been added so as not to accidentally change what is not necessary. For good, everything on this tab should be configured only once and forgotten.
 
-If you want full acces to setting [contact me](mailto:olukelo.company@gmail.com)
+Full version of firmware is available by request [contact me](mailto:olukelo.company@gmail.com)
 
 
 ## Tested games
@@ -96,4 +94,6 @@ If you want full acces to setting [contact me](mailto:olukelo.company@gmail.com)
 * Assetto Corsa Competizione
 * Project Cars
 * Automobilista 2
+* rFactor 2
+* Raceroom Racing Experience
 * Dirt Rally 2.0 - For the steering wheel to work, follow the instructions in the [documents](/docs/codemasters_games.md)
