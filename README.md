@@ -17,6 +17,10 @@ https://forum.simracing.su/topic/4400-dd-rul-iz-hoverborda-ya-sdelal-eto/
 Connection diagram (Note the button. It is optional, but helpfull. It's functionality to reset center position of the wheel. In normal operation position in which wheel was connected to power sourse considered as the center, but if you need to reset it - just press the button)
 ![scheme](screen/scheme.jpg)
 
+Some notes about braking resistor. The idea is to choose resistor and then adjust Braking resistor limit on hardware tab. I sucesfully used 2R and 10R resistors.
+First you connect resistor and start with 1% of Braking resistor limit. Then start increasing it by 1 tick and experiment - you need to stop at the point when PSU stops to go into overvoltage protection mode.
+For example for my PSU (15v 13A) it works with value 5% for 2R resistor and 10% for 10R resistor
+
 ## Mechanical part
 
 More details on mechanical [here](/hardware/)
@@ -44,6 +48,8 @@ Effects
 
 ![effect](screen/guieffects.jpg)
 
+* Dropdown with saved profiles. To add new profile just type name of profile and clic save. 
+
 * Enable constant via sine - Enables support for effects similar to Raceroom (it sends effects in different form from other games). So far I've only met in one game. For everything except the Raceroom keep it unchecked.
 * Steering range - I think without question.
 * Everything with the addition of word 'gain' is the adjustment of the strength of individual effects. Everything that is plus turns in one direction, everything that is minus turns in the other. Damper is not implemented at the moment, Total is the total effort scale that is applied to everything at once. If you need to invert all effects, just invert Total.
@@ -62,7 +68,12 @@ Hardware
 * Output power - total power as a percentage of the physically possible. Start low and increase a little at a time until the motor stays stable and doesn't overheat.
 * Braking resistor limit - power that can be dissipated by praking resistor as a percentage of the physically possible. Start low and increase a little at a time until the PSU stop to go into overvoltage protection during quick wheel rotation.
 
-Buttons 
+Buttons tab
+
+As firmware supports connection of Thrustmaster wheels, and different whells have some buttons constantly pressed you can check which button state to ignore.
+
+
+General buttons mapping 
 * read what is written in the controller 
 * write to the controller.
 
