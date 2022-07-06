@@ -73,7 +73,7 @@ Before connecting the power supply set correct center position of steering wheel
 As firmware supports connection of Thrustmaster wheels, and different whells have some buttons constantly pressed you can check which button state to ignore.
 
 
-**General buttons mapping **
+**General buttons mapping**
 * read what is written in the controller 
 * write to the controller.
 
