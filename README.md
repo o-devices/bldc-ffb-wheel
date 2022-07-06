@@ -44,7 +44,7 @@ Before connecting the power supply set correct center position of steering wheel
 
 ### GUI 
 
-Effects
+**Effects**
 
 ![effect](screen/guieffects.jpg)
 
@@ -55,7 +55,7 @@ Effects
 * Everything with the addition of word 'gain' is the adjustment of the strength of individual effects. Everything that is plus turns in one direction, everything that is minus turns in the other. Damper is not implemented at the moment, Total is the total effort scale that is applied to everything at once. If you need to invert all effects, just invert Total.
 * Soft stop range - the distance in percentage from the 'steering range' at which the stop force increases at the end of the range. At the same time, the output values ​​​​of the joystick axis are already at the maximum in this range
 
-Hardware
+**Hardware**
 
 ![hardware](screen/guihardware.jpg)
 
@@ -68,18 +68,18 @@ Hardware
 * Output power - total power as a percentage of the physically possible. Start low and increase a little at a time until the motor stays stable and doesn't overheat.
 * Braking resistor limit - power that can be dissipated by praking resistor as a percentage of the physically possible. Start low and increase a little at a time until the PSU stop to go into overvoltage protection during quick wheel rotation.
 
-Buttons tab
+**Buttons tab**
 
 As firmware supports connection of Thrustmaster wheels, and different whells have some buttons constantly pressed you can check which button state to ignore.
 
 
-General buttons mapping 
+**General buttons mapping **
 * read what is written in the controller 
 * write to the controller.
 
 Each tab has its own buttons. Changes to the effects tab are saved separately to the hardware tab.
 
-Full version
+### Full version
 
 The Hardware tab is inactive until the Serial Key for a specific Device ID is entered.
 When the correct key is entered and the Register button is pressed, the program switches to full mode and the Enable advanced settings button becomes available on the Hardware tab. (known bug - the key is not saved between controller restarts - I'm working on it)
