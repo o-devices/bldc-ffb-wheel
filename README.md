@@ -97,3 +97,4 @@ Full version of firmware is available by request [contact me](mailto:olukelo.com
 * rFactor 2
 * Raceroom Racing Experience
 * Dirt Rally 2.0 - For the steering wheel to work, follow the instructions in the [documents](/docs/codemasters_games.md)
+* iRacing
