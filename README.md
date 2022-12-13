@@ -1,5 +1,8 @@
 # BLDC-FFB-WHEEL
 
+Discord: 
+https://discord.gg/saSWtmbp
+
 Forum link:
 https://forum.simracing.su/topic/4400-dd-rul-iz-hoverborda-ya-sdelal-eto/
 
