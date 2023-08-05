@@ -3,6 +3,7 @@
 Forum link:
 https://forum.simracing.su/topic/4400-dd-rul-iz-hoverborda-ya-sdelal-eto/
 
+## For question visit Discord https://discord.gg/Gt6rnvrZKu
 
 ## Required Parts/Materials
 
@@ -85,7 +86,7 @@ The Hardware tab is inactive until the Serial Key for a specific Device ID is en
 When the correct key is entered and the Register button is pressed, the program switches to full mode and the Enable advanced settings button becomes available on the Hardware tab. (known bug - the key is not saved between controller restarts - I'm working on it)
 The Enable advanced settings button has been added so as not to accidentally change what is not necessary. For good, everything on this tab should be configured only once and forgotten.
 
-Full version of firmware is available by request [contact me](mailto:olukelo.company@gmail.com)
+Full version of firmware is available by request [contact me](mailto:olukelo.company@gmail.com) or discord https://discord.gg/Gt6rnvrZKu
 
 
 ## Tested games
