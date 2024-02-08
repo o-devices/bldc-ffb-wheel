@@ -1,5 +1,5 @@
 # BLDC-FFB-WHEEL
- All documentation for the project moved to https://ffbeast.github.io/docs/en/wheel.html
+ **All documentation for the project moved to https://ffbeast.github.io/docs/en/wheel.html**
 
 Discord: 
 https://discord.gg/Gt6rnvrZKu
